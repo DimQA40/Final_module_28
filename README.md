@@ -28,9 +28,14 @@ Labirint.
  - папка images содержит скриншоты выполнения тестов
 
 Запуск тестов:
+
 python -m pytest -v --driver Chrome --driver-path <chromedriver_directory>/<chromedriver_file> tests/books_tests.py
+
 python -m pytest -v --driver Chrome --driver-path <chromedriver_directory>/<chromedriver_file> tests/main_menu_center_up_tests.py
+
 python -m pytest -v --driver Chrome --driver-path <chromedriver_directory>/<chromedriver_file> tests/main_menu_down_tests.py
+
 python -m pytest -v --driver Chrome --driver-path <chromedriver_directory>/<chromedriver_file> tests/main_menu_right_tests.py
+
 python -m pytest -v --driver Chrome --driver-path <chromedriver_directory>/<chromedriver_file> tests/social_footer_tests.py
 
